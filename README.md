@@ -9,6 +9,8 @@ Configure APT for use with Ansible. It:
 * Installs python-apt
 * Installs apt-transport-https
 
+While python-apt gets installed automatically by Ansible in more recent versions, apt-transport-https does not.
+
 Requirements
 ------------
 
