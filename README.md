@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/willshersystems/ansible-apt.svg?branch=master)](https://travis-ci.org/WillsherSystems/ansible-sshd) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-willshersystems.apt-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/2488)
+[![Build Status](https://travis-ci.org/willshersystems/ansible-apt.svg?branch=master)](https://travis-ci.org/WillsherSystems/ansible-sshd) [![Ansible Galaxy](http://img.shields.io/badge/galaxy-willshersystems.apt-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/2579)
 
 APT
 ===
