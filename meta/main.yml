@@ -8,14 +8,10 @@ galaxy_info:
   platforms:
   - name: Debian
     versions:
-    - wheezy
-    - jessie
+    - all
   - name: Ubuntu
     versions:
-    - precise
-    - saucy
-    - trusty
-    - utopic
+    - all
   categories:
   - system
 dependencies: []
