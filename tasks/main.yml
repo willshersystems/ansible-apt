@@ -1,0 +1,14 @@
+---
+- name: Update apt cache
+  apt: >
+    update_cache=yes
+    cache_valid_time={{ apt_cache_valid_time|default(3600) }}
+
+- name: Install essential packages
+  apt: >
+    name={{ item }}
+    state=installed
+  with_items:
+    - python-apt
+    - apt-transport-https
+
