@@ -28,6 +28,6 @@ script:
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
 
-  - 'dpkg -l python-apt >/dev/null'
-  - 'dpkg -l apt-transport-https >/dev/null'
+  - 'dpkg --status python-apt >/dev/null'
+  - 'dpkg --status apt-transport-https >/dev/null'
 
