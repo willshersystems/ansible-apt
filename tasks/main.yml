@@ -12,3 +12,6 @@
     - python-apt
     - apt-transport-https
 
+- name: Register that this role has run
+  set_fact: apt_has_run=true
+  when: apt_has_run is not defined
