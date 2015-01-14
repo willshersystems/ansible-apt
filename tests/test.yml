@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+  - role: ansible-apt
+    when: ansible_pkg_mgr == 'apt'
+
+
